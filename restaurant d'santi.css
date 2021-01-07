@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #151515;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;   
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px ;
+}
+
+
+header p{
+    padding: 0px 20px 0px 20px ;
+    float: left;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: flex-end;
+    padding: 15px;
+    position: relative;
+}
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav-ul .show{
+    display: flex;
+}
+
+.hamburger{
+    border: 0;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    display: none;
+}
+
+.hamburger div{
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin: 5px;
+    color:black
+}
+
+header{
+    display: flex;
+}
+
+.firstsection{
+    background: #010101;
+   /* width: 100%;
+    height: 100%;*/
+}
+
+.firstsection h1{
+    font-family: Henny Penny;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 89px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: white;
+    height: 267px;
+    width: 334px;
+}
+
+.firstsection button{
+    background: #FDA337;
+    height: 51px;
+    width: 212px;
+    border-radius: 20px;
+}
+
+body > div > section.firstsection > div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.showcase{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail{
+    grid-column: 1/2;
+}
+
+.fork{
+    grid-column:2/3 ;
+}
+
+.secondsection{
+    background: #E5E5E5;
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.pic{
+    padding: 100px 100px;
+}
+
+.detail{
+    padding-top: 100px;
+}
+
+.secondsection h3{
+    font-family: Henny Penny;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.secondsection p{
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.thirdsection{
+    background: #FDA337;
+    height: 500px;
+}
+
+.thirdsection h2{
+    padding-top: 20px;
+    font-family: Henny Penny;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu{
+    background-color: white;
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 5%;
+}
+
+
+.menu li{
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18.3px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+
+.fourthsection{
+    background: #E5E5E5;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fifthsection{
+    border-radius: 0px;
+    background: url('./media/Rectangle\ \(1\).jpg');
+} 
+
+.coverphoto{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.48) 100%);
+    /*display: flex;
+    flex-direction: row;*/
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    width: 100%;
+}
+
+.fifthsection p{
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+/* solves the alignment issue*/
+.pot{
+    text-align: center;
+}
+
+.promise{
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+}
+
+.form{
+    margin-top: -50px;
+    height: 750px;
+    border-radius: 0px;
+    background: #FDA337;
+    grid-column: 2/3;
+    margin-bottom: -50px;
+    display: grid;
+}
+
+.form h2{
+font-family: Henny Penny;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+margin-top: 100px;
+}
+
+label{
+padding: 50px;
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+input{
+height: 40px;
+width: 366px;
+border-radius: 10px;
+margin-left: 50px;
+background: #FFFFFF;
+
+}
+
+.form button{
+height: 42px;
+width: 176px;
+border-radius: 5px;
+background: #070101;
+color: white;
+margin-left: 30%;
+cursor: pointer;
+}
+
+[type="number"]{
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.sixthsection{
+background: #E5E5E5;
+height: 100%;
+}
+
+.sixthsection h3{
+font-family: Henny Penny;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+margin-top: 300px;
+margin-bottom: 50px;
+}
+
+.first{
+    text-align: center;
+}
+
+.second{
+margin-bottom:100px ;
+text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 255px;
+    background: #070101;
+    border-radius: 0px;
+}
+
+.lastvec {
+margin-top: 100px;
+text-align: center;
+}
+
+footer h5{
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+color: white;
+}
+
+footer p{
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+}
+
+@media only screen and (max-width: 768px){
+   
+    .firstsection{
+        background-image: url('./media/spaghetti.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .showcase{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .detail h1{
+    font-family: Henny Penny;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 3px;
+    }
+
+    .secondsection .pic{
+    display: none;
+    }
+
+
+    .fork{
+        display: none;
+    }
+
+    .promise{
+    display: none;
+    }
+
+    .coverphoto{
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.48) 100%);
+    /*display: flex;
+    flex-direction: row;*/
+    display: grid;
+    grid-template-columns: 0% 100%;
+    width: 100%;
+    }
+
+    .form{
+     width: 100%;
+    }
+
+    form{
+        width: 80%;
+    }
+
+    input{
+        height: 40px;
+        width: 80%;
+        border-radius: 10px;
+        margin-left: 50px;
+        background: #FFFFFF;
+    }
+
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thirdsection{
+    background: #FDA337;
+    height: auto;
+    }
+
+    .menu{
+    background-color: white;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    }
+
+    .nav-ul{
+        display: none;
+        width: 500%;
+        height: 500%;
+        flex-direction: column;
+        background-color: #E5E5E5;
+        position: absolute;
+        top: 100%;
+        right: 0%;
+    }
+
+    .nav-ul li a{
+        color: #FDA337;
+    }
+
+    .nav-ul li a:hover{
+        color: black;
+    }
+
+    .nav-ul.show{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .hamburger{
+        display: block;
+        background-color: #FDA337;
+    }
+
+    .second img{
+        width: 100%;
+    }
+}
